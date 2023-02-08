@@ -3,17 +3,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
+
     <link rel="stylesheet" media="" href="">
     <link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
     <link rel="stylesheet" media="(orientation: landscape)" href="landscape.css">
-</head>
-<style>
 
-</style>
+    <!-- <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" media="(max-width:600px)" href="weather-2-small.css">
+    <link rel="stylesheet" media="(min-width:601px)" href="weather-2-large.css"> -->
+
+    <style>
+        @media only screen and (max-width: 600px){
+            h1{
+                color: green;
+            }
+            body{
+                background-color: yellow;
+            }
+        }
+        @media only screen and (min-width: 601px){
+            h1{
+
+                color: brown;
+            }
+            body{
+                background-color: green;
+            }
+            
+        }
+    </style>
+</head>
+
 <body>
     <div>
-
+        <h1>TES</h1>
     </div>
 </body>
 </html>
