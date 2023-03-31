@@ -1,5 +1,5 @@
 // C14200184 - Filbert Ferdinand Lim
-const CACHE_NAME = 'portfolio-cache-v1';
+const CACHE_NAME = 'portfolio-cache';
 const urlsToCache = [
     '/',
     '/index.html',
